@@ -1,0 +1,36 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Private inputs and generated outputs
+data/*
+!data/input/
+data/input/*
+!data/input/.gitkeep
+output/
+output_*/
+*.pdf
+*.PDF
+*.csv
+*.json
+*.log
+*.tmp
+*.bak
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
